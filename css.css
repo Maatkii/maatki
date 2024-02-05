@@ -1,0 +1,125 @@
+/* Reset des marges et des paddings pour assurer une base propre */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 2;
+  padding: 0;
+}
+
+/* Ajout de la police Roboto depuis Google Fonts */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style de la barre de navigation en ligne */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #969b9e;
+  padding: 10px 20px;
+}
+
+/* Style des liens de navigation */
+nav a {
+  color: #e74c3c;
+  text-decoration: none;
+  margin: 10 10px;
+  font-size: 18px;
+}
+
+/* Ajout d'une classe créative au titre principal */
+.header-title {
+  font-size: 36px;
+  color: #e74c3c;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Ajout d'une classe créative à la section de présentation */
+.presentation-section {
+  background-color: #08313b;
+  padding: 40px;
+}
+
+/* Style créatif pour les éléments de la section de présentation */
+.presentation-section p {
+  color: #e74c3c;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Ajout d'une classe créative à la section des compétences */
+.skills-section {
+  color: #e74c3c;
+  background-color: #e74c3c;
+  padding: 40px;
+}
+
+/* Style créatif pour les compétences */
+.skills-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-section li {
+  margin-bottom: 10px;
+}
+body {
+  background-color: #96d2e4; /* Code hexadécimal pour la couleur beige */
+}
+/* Ajout d'une classe créative au pied de page */
+.footer {
+  background-color: #34495e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style créatif pour le lien dans le pied de page */
+.footer a {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff0000; /* Code hexadécimal pour la couleur rouge */
+}
+/* Appliquer la couleur noire et centrer le grand titre (h1) */
+h1 {
+  color: #000000; /* Code hexadécimal pour la couleur noire */
+  text-align: center; /* Centrer le texte */
+  display: block; /* Assurer que le titre occupe la largeur complète de son conteneur */
+}
+.img {
+  max-width: 100%; /* Assurer que l'image ne dépasse pas la largeur du conteneur */
+  max-height: 100%; /* Assurer que l'image ne dépasse pas la hauteur du conteneur */
+}
+/* Ajouter une bordure à la barre de navigation */
+nav {
+  border: 3px solid #000; /* Ajouter une bordure noire de 1 pixel */
+  padding: 10px; /* Ajouter un espace intérieur pour améliorer l'apparence */
+}
+
+/* Style des liens de navigation */
+nav a {
+  color: #460404;
+  text-decoration-style: dashed;
+  margin: 0 10px;
+  font-size: 18px;
+}
+a {
+  font-weight: bold;
+}
